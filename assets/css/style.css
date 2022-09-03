@@ -18,3 +18,17 @@ body {
     height: 50px;
     padding-right: 5px;
 }
+
+/* --- Game layout */
+
+.game-area {
+    background-color: #0099ff;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
