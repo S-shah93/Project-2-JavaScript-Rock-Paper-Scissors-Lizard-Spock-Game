@@ -19,8 +19,6 @@ body {
     padding-right: 5px;
 }
 
-/* --- Game layout */
-
 .game-area {
     background-color: #0099ff;
     box-sizing: border-box;
