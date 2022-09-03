@@ -91,3 +91,47 @@ body {
     background-color: rgb(73, 45, 11);
     color: white;
 }
+
+.btn--grey {
+    border-color: rgb(209, 206, 202);
+    color: rgb(209, 206, 202);
+}
+
+.btn--grey:active,
+.btn--grey:hover {
+    background-color: rgb(59, 58, 56);
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: darkblue;
+    color: white;
+}
