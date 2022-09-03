@@ -37,3 +37,9 @@ body {
     height: 40px;
     display: inline-block;
 }
+
+.controls-area {
+    height: 60%;
+    border: pink;
+    border-radius: 2px;
+}
