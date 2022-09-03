@@ -42,7 +42,9 @@ body {
     height: 60%;
     border: pink;
     border-radius: 2px;
-}/* All buttons */
+}
+
+/* --- All buttons */
 
 .btn {
     width: 220px;
@@ -70,8 +72,22 @@ body {
 }
 
 .btn--big::after {
+	content: attr(data-type);
 	font-size: 1rem;
 	color: #445361;
 	position: relative;
 	left: -0.5em;
+}
+
+/* --- buttons style */
+
+.btn--brown {
+    border-color: rgb(185, 138, 49);
+    color: rgb(185, 138, 49);
+}
+
+.btn--brown:active,
+.btn--brown:hover {
+    background-color: rgb(73, 45, 11);
+    color: white;
 }
