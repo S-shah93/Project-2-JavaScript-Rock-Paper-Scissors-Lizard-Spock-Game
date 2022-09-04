@@ -5,7 +5,7 @@
 body {
     background-color: white;
     font-family: "Helvetica", sans-serif;
-    color: #445361;
+    color: #000000;
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ body {
 /* ------------------------------------------- game-area */
 
 .game-area {
-    background-color: #b6b6b6;
+    background-color: #795c5c;
     width: 950px;
     height: 65vh;
     max-height: 700px;
@@ -44,22 +44,6 @@ body {
     height: 10px;
     display: inline-block;
 }
-
-/* ------------------------------------------- score-area */
-
-.score-area {
-    background-color: lightgreen;
-    margin-top: 100px;
-    width: 100%;
-    height: 150px;
-    
-}
-
-.scores {
-    display: inline-block;
-    margin: 50px;
-}
-
 
 /* ------------------------------------------- All buttons */
 
@@ -157,13 +141,27 @@ body {
 
 .player-result {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: left;
 }
 
 .computer-result {
     padding-top: 30px;
-    width: 33%;
+    width: 50%;
     float: right;
 }
 
+/* ------------------------------------------- score-area */
+
+.score-area {
+    background-color: lightgreen;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.scores {
+    display: inline-block;
+    margin: 50px;
+}
