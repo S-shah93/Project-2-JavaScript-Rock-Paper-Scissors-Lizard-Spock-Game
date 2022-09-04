@@ -1,4 +1,6 @@
-/* --- Global style */
+/*   */
+
+/* ------------------------------------------- Global style */
 
 body {
     background-color: white;
@@ -7,7 +9,7 @@ body {
     text-align: center;
 }
 
-/* --- Heading style */
+/* ------------------------------------------- Heading style */
 
 .heading {
     text-align: center;
@@ -19,32 +21,46 @@ body {
     padding-right: 5px;
 }
 
+/* ------------------------------------------- game-area */
+
 .game-area {
     background-color: #0099ff;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
-    max-height: 450px;
+    max-height: 700px;
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
 }
 
-.scores {
-    background-color: lightgreen;
-    width: 20%;
-    height: 40px;
+/* ------------------------------------------- choice-area */
+
+.choices {
+    margin-bottom: 150px;
+    width: 100%;
+    height: 10px;
     display: inline-block;
 }
 
-.controls-area {
-    height: 60%;
-    border: pink;
-    border-radius: 2px;
+/* ------------------------------------------- score-area */
+
+.score-area {
+    background-color: lightgreen;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    
 }
 
-/* --- All buttons */
+.scores {
+    display: inline-block;
+    margin: 50px;
+}
+
+
+/* ------------------------------------------- All buttons */
 
 .btn {
     width: 220px;
@@ -79,7 +95,7 @@ body {
 	left: -0.5em;
 }
 
-/* --- buttons style */
+/* ------------------------------------------- buttons style */
 
 .btn--brown {
     border-color: rgb(185, 138, 49);
@@ -135,3 +151,18 @@ body {
     background-color: darkblue;
     color: white;
 }
+
+/* ------------------------------------------- choices  */
+
+.player-result {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+.computer-result {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
