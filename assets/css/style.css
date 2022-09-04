@@ -36,15 +36,6 @@ body {
     box-shadow: 0 0 10px 2px;
 }
 
-/* ------------------------------------------- choice-area */
-
-.choices {
-    margin-bottom: 150px;
-    width: 100%;
-    height: 10px;
-    display: inline-block;
-}
-
 /* ------------------------------------------- All buttons */
 
 .btn {
@@ -137,6 +128,15 @@ body {
     color: white;
 }
 
+/* ------------------------------------------- choice-area */
+
+.choices {
+    margin-bottom: 150px;
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+}
+
 /* ------------------------------------------- choices  */
 
 .player-result {
@@ -154,8 +154,8 @@ body {
 /* ------------------------------------------- score-area */
 
 .score-area {
-    background-color: lightgreen;
-    margin-top: 100px;
+    
+    margin-top: 10px;
     width: 100%;
     height: 150px;
     
