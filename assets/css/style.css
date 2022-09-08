@@ -26,8 +26,8 @@ body {
 .game-area {
     background-color: #867a7a;
     width: 950px;
-    height: 75vh;
-    max-height: 700px;
+    height: 100vh;
+    max-height: 900px;
     max-width: 85%;
     border-radius: 5px;
     margin-left: auto;
@@ -145,12 +145,12 @@ body {
 	border-radius: 15%;
     background-color: white;
     border: 6px solid;
-	height: 250px;
+	height: 240px;
 }
 
 #opponent-choice {
 	width: 25%;
-	height: 250px;
+	height: 240px;
 	float: right;
 	margin-right: 15%;
 	margin-top: 25px;
@@ -162,7 +162,7 @@ body {
 
 /* ------------------------------------------- moves-area */
 .move{
-	margin-top: 150px;
+	margin-top: 120px;
 	text-align: center;
 	font-size: 2rem;
 	font-weight: bold;
@@ -213,7 +213,17 @@ body {
 }
 
 #restart {
+    padding-top: 10px;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+}
+
+.rules-area {
+    padding-top: 5px;
+}
+
+.rules {
+    text-align: center;
+    font-size: 1.2rem;
 }
