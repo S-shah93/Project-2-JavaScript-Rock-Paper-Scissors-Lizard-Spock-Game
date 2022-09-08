@@ -67,7 +67,7 @@ const game = () => {
         // Show Computer's clicked button Image
         document.getElementById("opponent-choice").src =
           "assets/images/" + computer + ".png";
-          
+
           if (player === computer) {
             result.textContent = "Tie";
           } else if (player === "rock") {
@@ -142,4 +142,57 @@ const game = () => {
             }
           }
         };
- };
+
+/* Function to run when game is over */
+  
+    const gameOver = (playerOptions, movesLeft) => {
+        const chooseMove = document.querySelector(".move");
+    
+        const result = document.querySelector(".result");
+    
+        const reloadBtn = document.querySelector(".reload");
+    
+        playerOptions.forEach((option) => {
+          option.style.display = "none";
+        });
+    
+        chooseMove.innerText = "Game Over!";
+    
+        movesLeft.style.display = "none";
+    
+        if (playerScore > computerScore) {
+          result.style.fontSize = "2rem";
+    
+          result.innerText = "Congragulations You Won The Game";
+    
+          result.style.color = "#308D46";
+        } else if (playerScore < computerScore) {
+          result.style.fontSize = "2rem";
+    
+          result.innerText = "You Lost The Game, Try Again?";
+    
+          result.style.color = "red";
+        } else {
+          result.style.fontSize = "2rem";
+    
+          result.innerText = "Tie";
+    
+          result.style.color = "grey";
+        }
+    
+        reloadBtn.innerText = "Restart";
+    
+        reloadBtn.style.display = "flex";
+    
+        reloadBtn.addEventListener("click", () => {
+          window.location.reload();
+        });
+      };
+    
+/* Calling playGame function inside game function */
+    
+      playGame();
+    };
+    
+/* Calling the game function */
+game();
