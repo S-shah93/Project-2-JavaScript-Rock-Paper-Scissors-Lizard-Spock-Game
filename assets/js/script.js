@@ -163,7 +163,7 @@ const game = () => {
     }
 
     reloadBtn.innerText = "Restart";
-    reloadBtn.style.display = "flex";
+ 
     reloadBtn.addEventListener("click", () => {
       window.location.reload();
     });
