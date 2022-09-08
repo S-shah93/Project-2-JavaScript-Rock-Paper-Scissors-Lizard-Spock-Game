@@ -1,4 +1,5 @@
 /* Entire Game logic inside this Function */
+/*jshint esversion: 6 */
 const game = () => {
   let playerScore = 0;
 
