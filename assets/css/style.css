@@ -224,6 +224,9 @@ body {
 }
 
 .rules {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
     text-align: center;
     font-size: 1.2rem;
 }
