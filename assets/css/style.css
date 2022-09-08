@@ -217,3 +217,98 @@ body {
     text-align: center;
     font-size: 1.2rem;
 }
+
+  /* ------------------------------------------- Media Query 1200px */
+  @media screen and (max-width: 1200px) {
+
+    /* ------------------------------------------- score-area */
+    .score-area {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+    }
+
+    .player-count,
+    .computer-count {
+        position: relative;
+        font-size: 2.0rem;
+        width: 50%;
+        margin: 10px;
+
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    /* ------------------------------------------- game-area */
+    .game-area {
+        height: 170vh;
+        max-height: 900px;
+
+    }
+}
+
+  /* ------------------------------------------- Media Query 1050px */
+  @media screen and (max-width: 1050px) {
+    .score-area {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+    }
+
+    .player-count,
+    .computer-count {
+        position: relative;
+        font-size: 2.0rem;
+        width: 50%;
+        margin: 10px;
+
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    /* ------------------------------------------- game-area */
+    .game-area {
+        height: 200vh;
+        max-height: 950px;
+
+    }
+  }
+
+    /* ------------------------------------------- Media Query 980px */
+    @media screen and (max-width: 980px) {
+        .score-area {
+            width: 80%;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            position: absolute;
+        }
+    
+        .player-count,
+        .computer-count {
+            position: relative;
+            font-size: 2.0rem;
+            width: 50%;
+            margin: 10px;
+    
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+    
+        }
+    
+        /* ------------------------------------------- game-area */
+        .game-area {
+            height: 200vh;
+            max-height: 1000px;
+    
+        }
+      }
