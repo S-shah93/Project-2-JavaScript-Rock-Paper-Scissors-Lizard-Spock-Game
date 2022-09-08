@@ -151,15 +151,15 @@ const game = () => {
     if (playerScore > computerScore) {
       result.style.fontSize = "2rem";
       result.innerText = "You Won The Game";
-      result.style.color = "#308D46";
+      result.style.color = "#22B900";
     } else if (playerScore < computerScore) {
       result.style.fontSize = "2rem";
       result.innerText = "You Lost The Game";
-      result.style.color = "red";
+      result.style.color = "#8B1A01";
     } else {
       result.style.fontSize = "2rem";
       result.innerText = "Tie";
-      result.style.color = "grey";
+      result.style.color = "black";
     }
 
     reloadBtn.innerText = "Restart";
