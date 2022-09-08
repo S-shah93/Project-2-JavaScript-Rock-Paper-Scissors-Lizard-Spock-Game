@@ -36,13 +36,10 @@ body {
     box-shadow: 0 0 10px 2px;
 }
 
-/* ------------------------------------------- All buttons */
-
 .btn {
     width: 220px;
     height: 60px;
     font-family: "Raleway", sans-serif;
-    text-transform: uppercase;
     letter-spacing: 1.2px;
     color: white;
 }
@@ -137,18 +134,30 @@ body {
     display: inline-block;
 }
 
-/* ------------------------------------------- choices  */
+/* ------------------------------------------- Player and Computer Choices  */
 
-.player-result {
-    padding-top: 30px;
-    width: 50%;
-    float: left;
+#your-choice {
+	width: 25%;
+	float: left;
+	margin-left: 15%;
+	margin-top: 25px;
+	border-radius: 15%;
+    background-color: white;
+    border: 6px solid;
+	height: 250px;
+
 }
 
-.computer-result {
-    padding-top: 30px;
-    width: 50%;
-    float: right;
+#opponent-choice {
+	width: 25%;
+	height: 250px;
+	float: right;
+	margin-right: 15%;
+	margin-top: 25px;
+	border-radius: 15%;
+    background-color: white;
+    border: 6px solid;
+	
 }
 
 /* ------------------------------------------- score-area */
