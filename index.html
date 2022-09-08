@@ -39,15 +39,27 @@
 			<span><img id="your-choice" /></span>
 			<span><img id="opponent-choice" /></span>
 		</div>
+
 		<div class="move">Select Your Weapon!</div>
 
-		<!--Number of moves left before game ends -->
+		<!--Number of moves left before the game ends -->
   
 		<div class="movesleft">Moves Left: 10</div>
+
 		<div class="score-area">
-			<div><span  id="result">Result: </span></div>
-			
+
+			<div class="playerScore">
+				<h2>Player</h2>
+				<p class="p-count count">0</p>
+			  </div>
+	  
+			  <div class="computerScore">
+				<h2>Computer</h2>
+				<p class="c-count count">0</p>
+			  </div>
 		</div>
+		<div class="result"></div>
+		<div id="restart"><button class="reload"></button></div>
 	</div>
 
 	<script src="assets/js/script.js"></script>
