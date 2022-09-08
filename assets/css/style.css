@@ -160,6 +160,19 @@ body {
 	
 }
 
+/* ------------------------------------------- moves-area */
+.move{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 2rem;
+  
+	font-weight: bold;
+  }
+
+.movesleft {
+	text-align: center;
+}
+
 /* ------------------------------------------- score-area */
 
 .score-area {
