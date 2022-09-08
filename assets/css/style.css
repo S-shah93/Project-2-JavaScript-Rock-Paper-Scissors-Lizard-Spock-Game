@@ -1,7 +1,4 @@
-/*   */
-
 /* ------------------------------------------- Global style */
-
 body {
     background-color: rgb(255, 255, 255);
     font-family: "Helvetica", sans-serif;
@@ -10,19 +7,12 @@ body {
 }
 
 /* ------------------------------------------- Heading style */
-
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
 
-.logo {
-    height: 50px;
-    padding-right: 5px;
-}
-
 /* ------------------------------------------- game-area */
-
 .game-area {
     background-color: #867a7a;
     width: 950px;
@@ -36,6 +26,7 @@ body {
     box-shadow: 0 0 10px 2px;
 }
 
+/* ------------------------------------------- All Buttons */
 .btn {
     width: 220px;
     height: 60px;
@@ -69,7 +60,7 @@ body {
 	left: -0.5em;
 }
 
-/* ------------------------------------------- buttons style */
+/* ------------------------------------------- Buttons style */
 
 .btn--brown {
     border-color: rgb(185, 138, 49);
@@ -126,8 +117,7 @@ body {
     color: white;
 }
 
-/* ------------------------------------------- choice-area */
-
+/* ------------------------------------------- Choice-area */
 .choices {
     margin-bottom: 150px;
     width: 100%;
@@ -136,7 +126,6 @@ body {
 }
 
 /* ------------------------------------------- Player and Computer Choices  */
-
 #your-choice {
 	width: 25%;
 	float: left;
@@ -157,7 +146,6 @@ body {
 	border-radius: 15%;
     background-color: white;
     border: 6px solid;
-	
 }
 
 /* ------------------------------------------- moves-area */
@@ -197,7 +185,6 @@ body {
 }
 
 /* ---------------------------------------------- Restart Button */
-
 .reload {
     position: relative;
     padding-top: 10px;
@@ -208,7 +195,6 @@ body {
     height: 80px;
     font-size: 1.0rem;
     margin: 0 30px;
-    transition: all 0.5s;
     font-weight: bold;
 }
 
@@ -219,6 +205,7 @@ body {
     font-weight: bold;
 }
 
+/* ------------------------------------------- Rules-area */
 .rules-area {
     padding-top: 5px;
 }
