@@ -39,7 +39,7 @@ body {
 .btn {
     width: 220px;
     height: 60px;
-    font-family: "Raleway", sans-serif;
+    font-family: "Helvetica", sans-serif;
     letter-spacing: 1.2px;
     color: white;
 }
@@ -52,12 +52,13 @@ body {
     padding-top: 10px;
     border-radius: 50%;
     background-color: white;
-    border: 10px solid;
+    border: 8px solid;
     width: 100px;
     height: 100px;
-    font-size: 3.2rem;
+    font-size: 1.2rem;
     margin: 0 30px;
     transition: all 0.5s;
+    font-weight: bold;
 }
 
 .btn--big::after {
@@ -174,8 +175,6 @@ body {
 }
 
 /* ------------------------------------------- score-area */
-
-  /* Score Board */
   .score-area{
 
 	width: 50vw;
@@ -185,7 +184,6 @@ body {
 	position: absolute;
   }
   
-  /* Score  */
   .player-count,.computer-count{
 
 	width: 50%;
