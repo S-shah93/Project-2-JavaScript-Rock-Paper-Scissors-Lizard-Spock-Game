@@ -25,3 +25,11 @@ The games website consists of 1 interactive page to play a game of rock, paper, 
 
 [Back to top](<#contents>)
 
+
+
+## Design Choices
+
+* ### Typography
+    The fonts chosen were '' for the headings and '' for the body text. They fall back to  respectively. 
+    * "" 
+    * ""
