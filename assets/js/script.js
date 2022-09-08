@@ -5,8 +5,8 @@ const game = () => {
     let computerScore = 0;
   
     let moves = 0;
-/* Function to start playing game   */
 
+    /* Function to start playing game   */
     const playGame = () => {
         const rockBtn = document.querySelector(".rock");
         const paperBtn = document.querySelector(".paper");
@@ -17,4 +17,54 @@ const game = () => {
         const playerOptions = [rockBtn, paperBtn, scissorBtn, lizardBtn, spockBtn];
         const computerOptions = ["rock", "paper", "scissor", "lizard", "spock"];
     }
-}
+/* Default Images for player and computer choice display area */
+     document.getElementById("your-choice").src =
+     "assets/images/" + "default" + ".png";
+   document.getElementById("opponent-choice").src =
+     "assets/images/" + "default" + ".png";
+
+   playerOptions.forEach((option) => {
+     option.addEventListener("click", function () {
+       const movesLeft = document.querySelector(".movesleft");
+
+       moves++;
+
+       movesLeft.innerText = `Moves Left: ${10 - moves}`;
+
+       const choiceNumber = Math.floor(Math.random() * computerOptions.length);
+
+       const computerChoice = computerOptions[choiceNumber];
+
+/* Function to check who wins */
+
+       winner(this.innerText, computerChoice);
+
+/* Calling the gameOver function after 10 moves */
+
+       if (moves == 10) {
+         gameOver(playerOptions, movesLeft);
+       }
+     });
+   });
+
+/* Function to decide the winner */
+  
+      const winner = (player, computer) => {
+        const result = document.querySelector(".result");
+    
+        const playerScoreBoard = document.querySelector(".player-count");
+    
+        const computerScoreBoard = document.querySelector(".computer-count");
+    
+        player = player.toLowerCase();
+    
+        computer = computer.toLowerCase();
+    
+        // Show Player's clicked button Image
+        document.getElementById("your-choice").src =
+          "assets/images/" + player + ".png";
+    
+        // Show Computer's clicked button Image
+        document.getElementById("opponent-choice").src =
+          "assets/images/" + computer + ".png";
+ };}
