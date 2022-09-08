@@ -14,14 +14,10 @@
     <title>ROCK, PAPER, SCISSORS, LIZARD, SPOCK</title>
 </head>
 <body>
-    <h1 class="heading">
-		<img class="logo" 
-        src=""> ROCK, PAPER, SCISSORS, LIZARD, SPOCK
-	</h1>
+    <h1 class="heading"> ROCK, PAPER, SCISSORS, LIZARD, SPOCK</h1>
 
     <div class="game-area">
 		<div class="controls-area">
-			<h2>Select Your Weapon!</h2>
 			<button class="btn btn--big btn--brown">
                 <i class="fa-solid fa-hand-back-fist"></i>
 			</button>
@@ -40,17 +36,17 @@
 		</div>
 
 		<div class="choices">
-
-			<div class="player-result"><h1>You selected: <span id="player-choice"></span></h1></div>
-			<div class="computer-result"><h1>Computer selected: <span id="computer-choice"></span></h1></div>
+			<span><img id="your-choice" /></span>
+			<span><img id="opponent-choice" /></span>
 		</div>
-		
+		<div class="move">Select Your Weapon!</div>
+
+		<!--Number of moves left before game ends -->
+  
+		<div class="movesleft">Moves Left: 10</div>
 		<div class="score-area">
 			<div><span  id="result">Result: </span></div>
 			
-			<h2 class="scores">Wins: <span id="wins">0</span></h2>
-			<h2 class="scores">Draws: <span id="draws">0</span></h2>
-			<h2 class="scores">Losses: <span id="losses">0</span></h2>
 		</div>
 	</div>
 
