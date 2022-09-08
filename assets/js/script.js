@@ -6,26 +6,19 @@ const game = () => {
 
   let moves = 0;
 
-  // Function to
+/* Function to start playing game   */
 
   const playGame = () => {
     const rockBtn = document.querySelector(".rock");
-
     const paperBtn = document.querySelector(".paper");
-
     const scissorBtn = document.querySelector(".scissor");
-
     const lizardBtn = document.querySelector(".lizard");
-
     const spockBtn = document.querySelector(".spock");
 
     const playerOptions = [rockBtn, paperBtn, scissorBtn, lizardBtn, spockBtn];
-
     const computerOptions = ["rock", "paper", "scissor", "lizard", "spock"];
 
-    // Function to start playing game
-
-    // Default Images
+/* Default Images for player and computer choice display area */
     document.getElementById("your-choice").src =
       "assets/images/" + "default" + ".png";
     document.getElementById("opponent-choice").src =
@@ -34,21 +27,16 @@ const game = () => {
     playerOptions.forEach((option) => {
       option.addEventListener("click", function () {
         const movesLeft = document.querySelector(".movesleft");
-
         moves++;
-
         movesLeft.innerText = `Moves Left: ${10 - moves}`;
 
         const choiceNumber = Math.floor(Math.random() * computerOptions.length);
-
         const computerChoice = computerOptions[choiceNumber];
 
-        // Function to check who wins
-
+/* Function to check who wins */
         winner(this.innerText, computerChoice);
 
-        // Calling gameOver function after 10 moves
-
+/* Calling the gameOver function after 10 moves */
         if (moves == 10) {
           gameOver(playerOptions, movesLeft);
         }
@@ -56,27 +44,22 @@ const game = () => {
     });
   };
 
-  // Function to decide winner
-
+/* Function to decide the winner */
   const winner = (player, computer) => {
     const result = document.querySelector(".result");
-
     const playerScoreBoard = document.querySelector(".player-count");
-
     const computerScoreBoard = document.querySelector(".computer-count");
-
     player = player.toLowerCase();
-
     computer = computer.toLowerCase();
 
-    // Show Player's clicked button Image
+/* Show Player's clicked button Image */
     document.getElementById("your-choice").src =
       "assets/images/" + player + ".png";
-
-    // Show Computer's clicked button Image
+/* Show Computer's clicked button Image */
     document.getElementById("opponent-choice").src =
       "assets/images/" + computer + ".png";
 
+/* Logic for game options */
     if (player === computer) {
       result.textContent = "Tie";
     } else if (player === "rock") {
@@ -152,56 +135,42 @@ const game = () => {
     }
   };
 
-  // Function to run when game is over
-
+/* Function to run when game is over */
   const gameOver = (playerOptions, movesLeft) => {
     const chooseMove = document.querySelector(".move");
-
     const result = document.querySelector(".result");
-
     const reloadBtn = document.querySelector(".reload");
-
     playerOptions.forEach((option) => {
       option.style.display = "none";
     });
 
     chooseMove.innerText = "Game Over!!";
-
     movesLeft.style.display = "none";
 
     if (playerScore > computerScore) {
       result.style.fontSize = "2rem";
-
       result.innerText = "You Won The Game";
-
       result.style.color = "#308D46";
     } else if (playerScore < computerScore) {
       result.style.fontSize = "2rem";
-
       result.innerText = "You Lost The Game";
-
       result.style.color = "red";
     } else {
       result.style.fontSize = "2rem";
-
       result.innerText = "Tie";
-
       result.style.color = "grey";
     }
 
     reloadBtn.innerText = "Restart";
-
     reloadBtn.style.display = "flex";
-
     reloadBtn.addEventListener("click", () => {
       window.location.reload();
     });
   };
 
-  // Calling playGame function inside game
-
+/* Calling playGame function inside game function */
   playGame();
 };
 
-// Calling the game function
+/* Calling the game function */
 game();
