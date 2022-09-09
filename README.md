@@ -2,7 +2,7 @@
 
 This game is an extention of the standard Rock, Paper Scissor game with a twist. This expanded version with Lizard & Spock in the mix makes things intresting. This version of the game was first seen on TV on the popular show The Big Bang Theory, when sheldon played this game against his friend Raj to decide what show they will watch.
 
-![Opening Screen](assets/images/readme-images/opening%20screen.PNG)
+![Opening Screen](assets/images/readme-images/opening-screen.PNG)
 
 # Contents
 
@@ -30,9 +30,19 @@ This game is an extention of the standard Rock, Paper Scissor game with a twist.
 
 The wireframes for the game Rock, Paper, Scissor, Lizard, Spock were produced in Adobe Illistrator. The frames showcase a full width display and for small mobile devices.
 
-![Desktop Wireframe]()
+**Desktop Wireframes Starting Screen and Ending Screen**
 
-![Mobile Wireframe]()
+![Desktop Wireframe](assets/images/readme-images/desktop-wireframe-1.png)
+
+![Desktop Wireframe](assets/images/readme-images/desktop-wireframe-2.png)
+
+
+
+**Mobile Wireframes Starting Screen and Ending Screen**
+
+![Mobile Wireframe](assets/images/readme-images/mobile-wireframe-1.PNG)
+
+![Mobile Wireframe](assets/images/readme-images/mobile-wireframe-2.PNG)
 
 
 # Site Structure 
