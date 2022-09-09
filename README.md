@@ -56,9 +56,8 @@ The games website consists of 1 interactive page to play a game of rock, paper, 
 ## Design Choices
 
 * ### Typography
-    The fonts chosen were '' for the headings and '' for the body text. They fall back to  respectively. 
-    * "" 
-    * ""
+    The fonts chosen were 'Noto Sans Avestan' for the body and 'Noto Serif Georgian' to fall back to respectively. 
+    * These fonts were chosen to compliment the look of the game area while giving a strong bold appearance.
 
  * ### Colour Scheme
     The colour scheme eventually chosen is based on a White background, with a game card background that is a mix of Magenta, Yellow and Black, with the main text colour of black and a range of colours for the options in the game to give a pleasent contrast between the different colours. 
@@ -74,7 +73,7 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 ## Existing Features  
   * ### 5 Playable Options
 
-    5 playable options are in the game, 2 more than the standard Rock, Paper, Scissor game bringing the total number of possible outcomes from () to (). With many more posible outcomes come many more enjoyable moments.
+    5 playable options are in the game, 2 more than the standard Rock, Paper, Scissor game bringing the total number of possible outcomes from (27 combinations) to (199 combinations). With many more posible outcomes, come many more enjoyable moments.
 
     As a fan of the TV show you may be excited to play the game but remembering back when sheldon explained the rules he may of been a bit too fast so if you need some help the rules of the game they are clearly explained below the restart button. There is also a default image displayed before the player makes a choice to help explain the rules.
 
@@ -157,9 +156,14 @@ The method from cloning a project from GitHub is below:
 * The font came from [Google Fonts](https://fonts.google.com/).
 * The colour palate was compiled by [Colormind](http://colormind.io/).
 * [Adobe Illistrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the wireframes.
+* To get a better understanding of how to start writing the functions for the game I found great advice from 2 specfic YouTubers [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1031s) & [Web Dev Simplified](https://www.youtube.com/watch?v=7UMuJMiNjSk&t=366s).
+* In addition many blogs from [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/) and Youtube videos were researched in regards to CSS styling & JavaScript functions.
+
 
 ### Media
-* The default & options images displayed came from [Font Awesome](https://fontawesome.com/) in the form of an SVG file.
+* The options images displayed came from [Font Awesome](https://fontawesome.com/) in the form of an SVG file.
+
+* The default image was found on google [Google Images](https://www.google.com/search?q=rock+paper+scissors+lizard+spock+researchgate&tbm=isch&ved=2ahUKEwjU0bHYrYj6AhUKJMAKHUY7B3kQ2-cCegQIABAA&oq=rock+paper+scissors+lizard+spock+researchgate&gs_lcp=CgNpbWcQAzoECAAQQzoFCAAQgAQ6BAgAEBhQoQJYshVgtBZoAHAAeACAATSIAeAEkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=NIgbY9TnA4rIgAbG9pzIBw&bih=880&biw=1920#imgrc=dH84YqPOTNSiBM)
 
 [Back to top](<#contents>)
 
