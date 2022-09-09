@@ -344,26 +344,26 @@ body {
             max-height: 1500px;
     
         }
-      }
 
-      /* ------------------------------------------- Player and Computer Choices  */
-#your-choice {
-	width: 25%;
-	float: left;
+        /* ------------------------------------------- Player and Computer Choices  */
+        #your-choice {
+            width: 25%;
+            float: left;
 
-	height: 140px;
-}
+            height: 140px;
+        }
 
-#opponent-choice {
-	width: 25%;
-	float: right;
+        #opponent-choice {
+            width: 25%;
+            float: right;
 
-	height: 140px;
-}
+            height: 140px;
+        }
 
-.move{
-	margin-top: 10px;
-	text-align: center;
-	font-size: 2rem;
-	font-weight: bold;
-  }
+        .move {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+    }
