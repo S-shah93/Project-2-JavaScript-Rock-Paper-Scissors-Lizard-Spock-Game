@@ -11,6 +11,7 @@ The HTML validator results for URL link for HTML, CSS & JavaScript are below bel
 * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
    
    * ![Website HTML URL link]()
+   * ![Website HTML direct input link](assets/images/readme-images/html-validator-error.PNG)
 
 * No erros were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
    
