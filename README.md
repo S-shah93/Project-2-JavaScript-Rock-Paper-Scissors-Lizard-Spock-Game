@@ -157,7 +157,7 @@ The method from cloning a project from GitHub is below:
 * The colour palate was compiled by [Colormind](http://colormind.io/).
 * [Adobe Illistrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the wireframes.
 * To get a better understanding of how to start writing the functions for the game I found great advice from 2 specfic YouTubers [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1031s) & [Web Dev Simplified](https://www.youtube.com/watch?v=7UMuJMiNjSk&t=366s).
-* In addition many blogs from [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/) and Youtube videos were researched in regards to CSS styling & JavaScript functions.
+* In addition many blogs from [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/) and [Youtube](https://www.youtube.com/) videos were researched in regards to CSS styling & JavaScript functions.
 
 
 ### Media

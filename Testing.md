@@ -17,6 +17,13 @@ The HTML validator results for URL link for HTML, CSS & JavaScript are below bel
    * ![Website CSS URL link]()
 
 * No erros were returned when passing through the official [Jshint validator](https://jshint.com/)
+   * There are 10 functions in this file.
+
+   * Function with the largest signature take 2 arguments, while the median is 0.
+
+   * Largest function has 59 statements in it, while the median is 5.5.
+
+   * The most complex function has a cyclomatic complexity value of 17 while the median is 1.
    * ![Website JavaScript Direct Input]()
 
 Throughout the developmet process minor errors were found and resolved in the HTML file as well as the JavaScript file such as:
