@@ -50,12 +50,36 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 
     5 playable options are in the game, 2 more than the standard Rock, Paper, Scissor game bringing the total number of possible outcomes from () to (). With many more posible outcomes come many more enjoyable moments.
 
-![5 Playable Options]()
-
-
-  * ### 5 Playable Options
     As a fan of the TV show you may be excited to play the game but remembering back when sheldon explained the rules he may of been a bit too fast so if you need some help the rules of the game they are clearly explained below the restart button. There is also a default image displayed before the player makes a choice to help explain the rules.
 
+![5 Playable Options]()
+
+[Back to top](<#contents>)
+
+  * ### Moves Left
+    The moves left tracker lets the player know how many rounds are left, decreacing after every round until 0. Once the game has ended the end screen will display the end result while letting the player know if they have either won, lost or drew the game.
+
+[Back to top](<#contents>)
+
   * ### Score Tracker
+    While playing the game,:
+    * Each round won will award you a point.
+    * Each round lost will award the computer a point.
+    * No points are awarded when a round ends in a draw.
+
+[Back to top](<#contents>)
 
   * ### Restart Button
+    The restart button is displayed below the score tracker to give the user an option to restart the game at any point reloading the game to the start.
+
+[Back to top](<#contents>)
+
+## Future Features 
+  * Change display of points to show case the number of Ties in each game.
+  * Button to give player the choice of showing/hiding the rules to inhance user experience.
+  * Add icons to 5 playable options with text displayed below.
+
+[Back to top](<#contents>)
+
+# Testing
+
