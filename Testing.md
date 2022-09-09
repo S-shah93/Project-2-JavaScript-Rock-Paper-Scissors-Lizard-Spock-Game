@@ -30,7 +30,7 @@ The HTML validator results for URL link for HTML, CSS & JavaScript are below bel
 
 ## Browser Compatibility
 
-Mecca Travel website was tested on the following browsers with no visible issues for the user. 
+Rock, paper, Scissor, Lizard, Spock game website was tested on the following browsers with no visible issues for the user. 
 Google Chrome, Microsoft Edge. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Known Bugs
