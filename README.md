@@ -2,7 +2,7 @@
 
 This game is an extention of the standard Rock, Paper Scissor game with a twist. This expanded version with Lizard & Spock in the mix makes things intresting. This version of the game was first seen on TV on the popular show The Big Bang Theory, when sheldon played this game against his friend Raj to decide what show they will watch.
 
-![Opening Screen]()
+![Opening Screen](assets/images/readme-images/opening%20screen.PNG)
 
 # Contents
 
@@ -52,14 +52,12 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 
     As a fan of the TV show you may be excited to play the game but remembering back when sheldon explained the rules he may of been a bit too fast so if you need some help the rules of the game they are clearly explained below the restart button. There is also a default image displayed before the player makes a choice to help explain the rules.
 
-![5 Playable Options]()
+![5 Playable Options](assets/images/readme-images/5-playable-options.PNG)
 
 [Back to top](<#contents>)
 
   * ### Moves Left
     The moves left tracker lets the player know how many rounds are left, decreacing after every round until 0. Once the game has ended the end screen will display the end result while letting the player know if they have either won, lost or drew the game.
-
-[Back to top](<#contents>)
 
   * ### Score Tracker
     While playing the game,:
@@ -67,10 +65,10 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
     * Each round lost will award the computer a point.
     * No points are awarded when a round ends in a draw.
 
-[Back to top](<#contents>)
-
   * ### Restart Button
     The restart button is displayed below the score tracker to give the user an option to restart the game at any point reloading the game to the start.
+
+![Score Tracker](assets/images/readme-images/score-tracker.PNG)
 
 [Back to top](<#contents>)
 
@@ -98,10 +96,10 @@ The site was deployed to GitHub pages. The steps to deploy the site are as follo
   5. Under **Branch** select **Main** then click **save**.
   6. Once the master branch has been selected, then refresh the page to see your link with a check mark.
 
-![GitHub pages deployed image]()
-![GitHub pages deployed image]()
-![GitHub pages deployed image]()
-![GitHub pages deployed image]()
+![GitHub pages deployed image](assets/images/readme-images/deployment-1.PNG)
+![GitHub pages deployed image](assets/images/readme-images/deployment-2.PNG)
+![GitHub pages deployed image](assets/images/readme-images/deployment-3.PNG)
+![GitHub pages deployed image](assets/images/readme-images/deployment-4.PNG)
 
 The live link to the Github repository can be found here -https://s-shah93.github.io/Project-2-JavaScript-Rock-Paper-Scissors-Lizard-Spock-Game/
 
@@ -110,7 +108,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 1. Log in to **GitHub** and locate the [repository](https://github.com/S-shah93/Project-2-JavaScript-Rock-Paper-Scissors-Lizard-Spock-Game).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
-![GitHub forking process image]()
+![GitHub forking process image](assets/images/readme-images/fork.PNG)
 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
@@ -118,7 +116,7 @@ The method from cloning a project from GitHub is below:
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
 
-![Cloning image]()
+![Cloning image](assets/images/readme-images/clone.PNG)
 
 3. In your IDE of choice, open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be made.

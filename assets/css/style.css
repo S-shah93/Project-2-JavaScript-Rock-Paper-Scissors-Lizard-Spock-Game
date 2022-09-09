@@ -162,7 +162,7 @@ body {
 
 /* ------------------------------------------- score-area */
   .score-area{
-	width: 50vw;
+	width: 45vw;
 	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
