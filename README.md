@@ -83,7 +83,7 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 
 # Testing
 
-
+Please refer to [**_here_**](Testing.md) for more information on testing Rock, Paper, Scissor, Lizard, Spock Game.
 
 [Back to top](<#contents>)
 
