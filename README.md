@@ -6,6 +6,22 @@ This game is an extention of the standard Rock, Paper Scissor game with a twist.
 
 # Contents
 
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *  [Typography](<#typography>)
+    *  [Colour Scheme](<#colour-scheme>)
+* [**Features**](<#features>)
+    * [Existing Features](<#existing-features>)
+      * [5 Playable Options](<#5-playable-options>)
+      * [Score-Moves-Restart](<#score-Moves-restart>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
 
 
 # User Experience (UX)
@@ -37,7 +53,7 @@ The games website consists of 1 interactive page to play a game of rock, paper, 
  * ### Colour Scheme
     The colour scheme eventually chosen is based on a White background, with a game card background that is a mix of Magenta, Yellow and Black, with the main text colour of black and a range of colours for the options in the game to give a pleasent contrast between the different colours. 
 
-![Colour Palate image]()
+![Colour Palate image](assets/images/readme-images/colour-palate-image.PNG)
 
 [Back to top](<#contents>)
 
@@ -68,7 +84,7 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
   * ### Restart Button
     The restart button is displayed below the score tracker to give the user an option to restart the game at any point reloading the game to the start.
 
-![Score Tracker](assets/images/readme-images/score-tracker.PNG)
+![Score-Moves-Restart](assets/images/readme-images/score-tracker.PNG)
 
 [Back to top](<#contents>)
 

@@ -314,3 +314,34 @@ body {
     
         }
       }
+
+          /* ------------------------------------------- Media Query 400px */
+    @media screen and (max-width: 400px) {
+        .score-area {
+            width: 80%;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            position: absolute;
+        }
+    
+        .player-count,
+        .computer-count {
+            position: relative;
+            font-size: 2.0rem;
+            width: 50%;
+            margin: 10px;
+    
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+    
+        }
+    
+        /* ------------------------------------------- game-area */
+        .game-area {
+            height: 300vh;
+            max-height: 2000px;
+    
+        }
+      }
