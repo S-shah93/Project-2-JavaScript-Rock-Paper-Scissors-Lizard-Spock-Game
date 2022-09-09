@@ -31,6 +31,7 @@ During the developmet process minor errors were found and resolved in the HTML f
 ![HTML validator error](assets/images/readme-images/html-validator-error.PNG)
 * Jshint error
 ![Jshint validator error](assets/images/readme-images/jshint-error.PNG)
+* Minor bugs were found in the google chrome console which were resolved.
 
 
 ## Responsiveness Test

@@ -47,20 +47,18 @@ The wireframes for the game Rock, Paper, Scissor, Lizard, Spock were produced in
 
 # Site Structure 
 
-The games website consists of 1 interactive page to play a game of rock, paper, scissor, lizard, spock with 10 moves to decide a winner with the highest score if the scores are equel the game will end in a Tie. Once the game has ended the restart button can reload the game to play again or if things arent going your way you can hit the restart button before the game ends.
+The games website consists of 1 interactive page to play a game of rock, paper, scissor, lizard, spock with 10 moves to decide a winner with the highest score. If the scores are equel the game will end in a Tie. Once the game has ended the restart button can reload the game to play again or if things arent going your way you can hit the restart button before the game ends.
 
 [Back to top](<#contents>)
-
-
 
 ## Design Choices
 
 * ### Typography
     The fonts chosen were 'Noto Sans Avestan' for the body and 'Noto Serif Georgian' to fall back to respectively. 
-    * These fonts were chosen to compliment the look of the game area while giving a strong bold appearance.
+    * These fonts were chosen to compliment the look of the game area while giving a strong bold heading appearance.
 
  * ### Colour Scheme
-    The colour scheme eventually chosen is based on a White background, with a game card background that is a mix of Magenta, Yellow and Black, with the main text colour of black and a range of colours for the options in the game to give a pleasent contrast between the different colours. 
+    * The colour scheme eventually chosen is based on a White background, with a game card background that is a mix of Magenta, Yellow and Black, with the main text colour of black and a range of colours for the options in the game to give a pleasent contrast between the different colours. 
 
 ![Colour Palate image](assets/images/readme-images/colour-palate-image.PNG)
 
@@ -82,7 +80,7 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 [Back to top](<#contents>)
 
   * ### Moves Left
-    The moves left tracker lets the player know how many rounds are left, decreacing after every round until 0. Once the game has ended the end screen will display the end result while letting the player know if they have either won, lost or drew the game.
+    * The moves left tracker lets the player know how many rounds are left, decreacing after every round until 0. Once the game has ended, the end screen will display the end result while letting the player know if they have either won, lost or drew the game.
 
   * ### Score Tracker
     While playing the game,:
@@ -98,6 +96,7 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 [Back to top](<#contents>)
 
 ## Future Features 
+  * Add computer vs computer option to the game.
   * Change display of points to show case the number of Ties in each game.
   * Button to give player the choice of showing/hiding the rules to inhance user experience.
   * Add icons to 5 playable options with text displayed below.
