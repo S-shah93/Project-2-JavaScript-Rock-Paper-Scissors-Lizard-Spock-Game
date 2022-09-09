@@ -83,3 +83,63 @@ This Rock Paper Scissor Lizard Spock game is set up to give the player a fun exp
 
 # Testing
 
+
+
+[Back to top](<#contents>)
+
+# Deployment
+
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy the site are as follows:
+  1. In the GitHub repository, navigate to the **Project**.
+  2. In the GitHub project, navigate to the **Settings** tab.
+  3. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  4. Under **Source**, select the branch to **Deploy from a branch**.
+  5. Under **Branch** select **Main** then click **save**.
+  6. Once the master branch has been selected, then refresh the page to see your link with a check mark.
+
+![GitHub pages deployed image]()
+![GitHub pages deployed image]()
+![GitHub pages deployed image]()
+![GitHub pages deployed image]()
+
+The live link to the Github repository can be found here -https://s-shah93.github.io/Project-2-JavaScript-Rock-Paper-Scissors-Lizard-Spock-Game/
+
+### **To fork the repository on GitHub**
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+1. Log in to **GitHub** and locate the [repository](https://github.com/S-shah93/Project-2-JavaScript-Rock-Paper-Scissors-Lizard-Spock-Game).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
+
+![GitHub forking process image]()
+
+### **To create a local clone of this project**
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+
+![Cloning image]()
+
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+[Back to top](<#contents>)
+
+# Credits
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/).
+* The colour palate was compiled by [Colormind](http://colormind.io/).
+* [Adobe Illistrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the wireframes.
+
+### Media
+* The default & options images displayed came from [Font Awesome](https://fontawesome.com/) in the form of an SVG file.
+
+[Back to top](<#contents>)
+
+# Acknowledgements
+The site was completed as a Portfolio 2 Project piece for the Full Stack Software Developer Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. The Rock, Paper, Scissor, Lizard, Spock game was designed to give the player a little reminder of a game they may have forgotten.
+
+[Back to top](<#contents>)
