@@ -1,28 +1,29 @@
 # Testing
-## Code Validation
+## Validator Testing
 The Rock, Paper, Scissor, Lizard, Spock game website has be throughly tested. All the code has been run through the: 
 * [W3C html Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [jsHint Validator](https://jshint.com/)
 
-Throughout the developmet process minor errors were found in the HTML file as well as the JavaScript file such as:
-* [Show error images]()
-* [s]()
-* [s]()
-
 The HTML validator results for URL link for HTML, CSS & JavaScript are below below:
 
-* Website HTML URL link
 
-![s]()
+* No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+   
+   * ![Website HTML URL link]()
 
-* Website CSS URL link
+* No erros were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+   
+   * ![Website CSS URL link]()
 
-![s]()
+* No erros were returned when passing through the official [Jshint validator](https://jshint.com/)
+   * ![Website JavaScript Direct Input]()
 
-* Website JavaScript Direct Input
+Throughout the developmet process minor errors were found and resolved in the HTML file as well as the JavaScript file such as:
+* ![Show error images]()
+* ![s]()
+* ![s]()
 
-![s]()
 
 ## Responsiveness Test
 
