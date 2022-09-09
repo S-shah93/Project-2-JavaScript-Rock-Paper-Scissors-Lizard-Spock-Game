@@ -3,19 +3,18 @@
 The Rock, Paper, Scissor, Lizard, Spock game website has be throughly tested. All the code has been run through the: 
 * [W3C html Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-* [jsHint Validator](https://jshint.com/)
+* [Jshint Validator](https://jshint.com/)
 
 The HTML validator results for URL link for HTML, CSS & JavaScript are below below:
 
-
 * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
    
-   * ![Website HTML URL link]()
-   * ![Website HTML direct input link](assets/images/readme-images/html-validator-error.PNG)
+* ![Website HTML URL link](assets/images/readme-images/html-url-validator.PNG)
+* ![Website HTML direct input link](assets/images/readme-images/html-direct-input-validator.PNG)
 
 * No erros were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
    
-   * ![Website CSS URL link]()
+* ![Website CSS URL link](assets/images/readme-images/css-url-validator.PNG)
 
 * No erros were returned when passing through the official [Jshint validator](https://jshint.com/)
    * There are 10 functions in this file.
@@ -25,12 +24,13 @@ The HTML validator results for URL link for HTML, CSS & JavaScript are below bel
    * Largest function has 59 statements in it, while the median is 5.5.
 
    * The most complex function has a cyclomatic complexity value of 17 while the median is 1.
-   * ![Website JavaScript Direct Input]()
+   * ![Website JavaScript Direct Input](assets/images/readme-images/jshint-direct-input-validator.PNG)
 
-Throughout the developmet process minor errors were found and resolved in the HTML file as well as the JavaScript file such as:
-* ![Show error images]()
-* ![s]()
-* ![s]()
+During the developmet process minor errors were found and resolved in the HTML file as well as the JavaScript file such as:
+* HTML error
+![HTML validator error](assets/images/readme-images/html-validator-error.PNG)
+* Jshint error
+![Jshint validator error](assets/images/readme-images/jshint-error.PNG)
 
 
 ## Responsiveness Test
@@ -48,6 +48,7 @@ Google Chrome, Microsoft Edge. Appearance, functionality and responsiveness were
 * ### Unresolved
 
    ## Additional Testing
+
 ### Lighthouse
 The site was also tested using [Google Lighthouse]() in Chrome Developer Tools to test the page for:
 * Performance - How the page performs whilst loading.
@@ -57,4 +58,4 @@ The site was also tested using [Google Lighthouse]() in Chrome Developer Tools t
 
 As an example the results for Mecca Travel home page are below:
 
-![Lighthouse test results]()
+![Lighthouse test results](assets/images/readme-images/lighthouse-test.PNG)
