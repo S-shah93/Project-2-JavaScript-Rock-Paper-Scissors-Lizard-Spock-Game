@@ -169,8 +169,21 @@ const game = () => {
     });
   };
 
+  const replay = () => {
+    const reloadBtn = document.querySelector(".reload");
+
+    reloadBtn.innerText = "Restart";
+ 
+    reloadBtn.addEventListener("click", () => {
+      window.location.reload();
+    });
+  };
+
 /* Calling playGame function inside game function */
   playGame();
+
+  replay();
+  
 };
 
 /* Calling the game function */
