@@ -15,6 +15,7 @@ The HTML validator results for URL link for HTML, CSS & JavaScript are below bel
 * No erros were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
    
 * ![Website CSS URL link](assets/images/readme-images/css-url-validator.PNG)
+* ![Website CSS durect input link](assets/images/readme-images/css-direcet-input-validator.PNG)
 
 * No erros were returned when passing through the official [Jshint validator](https://jshint.com/)
    * There are 10 functions in this file.
