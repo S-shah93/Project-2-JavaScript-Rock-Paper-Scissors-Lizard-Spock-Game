@@ -55,11 +55,11 @@ body {
 }
 
 .btn--big::after {
-	content: attr(data-type);
-	font-size: 1rem;
-	color: #445361;
-	position: relative;
-	left: -0.5em;
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
 }
 
 /* ------------------------------------------- Buttons style */
@@ -129,55 +129,56 @@ body {
 
 /* ------------------------------------------- Player and Computer Choices  */
 #your-choice {
-	width: 25%;
-	float: left;
-	margin-left: 15%;
-	margin-top: 25px;
-	border-radius: 15%;
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 25px;
+    border-radius: 15%;
     background-color: white;
     border: 6px solid;
-	height: 240px;
+    height: 240px;
 }
 
 #opponent-choice {
-	width: 25%;
-	height: 240px;
-	float: right;
-	margin-right: 15%;
-	margin-top: 25px;
-	border-radius: 15%;
+    width: 25%;
+    height: 240px;
+    float: right;
+    margin-right: 15%;
+    margin-top: 25px;
+    border-radius: 15%;
     background-color: white;
     border: 6px solid;
 }
 
 /* ------------------------------------------- moves-area */
-.move{
-	margin-top: 120px;
-	text-align: center;
-	font-size: 2rem;
-	font-weight: bold;
-  }
+.move {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 .movesleft {
-	text-align: center;
+    text-align: center;
 }
 
 /* ------------------------------------------- score-area */
-  .score-area{
-	width: 50vw;
-	text-align: center;
-	display: flex;
-	justify-content: space-evenly;
-	position: absolute;
-  }
-  
-  .player-count,.computer-count{
+.score-area {
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.player-count,
+.computer-count {
     position: relative;
     font-size: 2.0rem;
     margin: 10px;
-  }
+}
 
-  /* ---------------------------------------------- Results */
+/* ---------------------------------------------- Results */
 .result {
     margin-top: 100px;
     font-size: 1.2rem;
@@ -220,8 +221,8 @@ body {
     font-size: 1.2rem;
 }
 
-  /* ------------------------------------------- Media Query 1200px */
-  @media screen and (max-width: 1200px) {
+/* ------------------------------------------- Media Query 1200px */
+@media screen and (max-width: 1200px) {
 
     /* ------------------------------------------- score-area */
     .score-area {
@@ -253,8 +254,8 @@ body {
     }
 }
 
-  /* ------------------------------------------- Media Query 1050px */
-  @media screen and (max-width: 1050px) {
+/* ------------------------------------------- Media Query 1050px */
+@media screen and (max-width: 1050px) {
     .score-area {
         width: 80%;
         text-align: center;
@@ -282,88 +283,88 @@ body {
         max-height: 950px;
 
     }
-  }
+}
 
-    /* ------------------------------------------- Media Query 980px */
-    @media screen and (max-width: 980px) {
-        .score-area {
-            width: 80%;
-            text-align: center;
-            display: flex;
-            justify-content: space-evenly;
-            position: absolute;
-        }
-    
-        .player-count,
-        .computer-count {
-            position: relative;
-            font-size: 2.0rem;
-            width: 50%;
-            margin: 10px;
-    
-            text-align: center;
-            font-size: 2rem;
-            font-weight: bold;
-    
-        }
-    
-        /* ------------------------------------------- game-area */
-        .game-area {
-            height: 200vh;
-            max-height: 1100px;
-    
-        }
-      }
-
-          /* ------------------------------------------- Media Query 400px */
-    @media screen and (max-width: 400px) {
-        .score-area {
-            width: 80%;
-            text-align: center;
-            display: flex;
-            justify-content: space-evenly;
-            position: absolute;
-        }
-    
-        .player-count,
-        .computer-count {
-            position: relative;
-            font-size: 2.0rem;
-            width: 50%;
-            margin: 10px;
-    
-            text-align: center;
-            font-size: 2rem;
-            font-weight: bold;
-    
-        }
-    
-        /* ------------------------------------------- game-area */
-        .game-area {
-            height: 250vh;
-            max-height: 1500px;
-    
-        }
-
-        /* ------------------------------------------- Player and Computer Choices  */
-        #your-choice {
-            width: 25%;
-            float: left;
-
-            height: 140px;
-        }
-
-        #opponent-choice {
-            width: 25%;
-            float: right;
-
-            height: 140px;
-        }
-
-        .move {
-            margin-top: 10px;
-            text-align: center;
-            font-size: 2rem;
-            font-weight: bold;
-        }
+/* ------------------------------------------- Media Query 980px */
+@media screen and (max-width: 980px) {
+    .score-area {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
     }
+
+    .player-count,
+    .computer-count {
+        position: relative;
+        font-size: 2.0rem;
+        width: 50%;
+        margin: 10px;
+
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    /* ------------------------------------------- game-area */
+    .game-area {
+        height: 200vh;
+        max-height: 1100px;
+
+    }
+}
+
+/* ------------------------------------------- Media Query 400px */
+@media screen and (max-width: 400px) {
+    .score-area {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+    }
+
+    .player-count,
+    .computer-count {
+        position: relative;
+        font-size: 2.0rem;
+        width: 50%;
+        margin: 10px;
+
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    /* ------------------------------------------- game-area */
+    .game-area {
+        height: 250vh;
+        max-height: 1500px;
+
+    }
+
+    /* ------------------------------------------- Player and Computer Choices  */
+    #your-choice {
+        width: 25%;
+        float: left;
+
+        height: 140px;
+    }
+
+    #opponent-choice {
+        width: 25%;
+        float: right;
+
+        height: 140px;
+    }
+
+    .move {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
