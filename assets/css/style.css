@@ -18,8 +18,8 @@ body {
 .game-area {
     background-color: #867a7a;
     width: 950px;
-    height: 100vh;
-    max-height: 950px;
+    height: 125vh;
+    max-height: 980px;
     max-width: 85%;
     border-radius: 5px;
     margin-left: auto;
