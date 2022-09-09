@@ -168,7 +168,7 @@ const game = () => {
       window.location.reload();
     });
   };
-
+/* Function to replay game */
   const replay = () => {
     const reloadBtn = document.querySelector(".reload");
 
@@ -182,6 +182,7 @@ const game = () => {
   /* Calling playGame function inside game function */
   playGame();
 
+  /* Calling replay function */
   replay();
 };
 
