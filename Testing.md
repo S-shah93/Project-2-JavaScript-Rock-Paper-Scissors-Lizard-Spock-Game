@@ -45,10 +45,9 @@ Rock, paper, Scissor, Lizard, Spock game website was tested on the following bro
 Google Chrome, Microsoft Edge. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 ## Known Bugs
-* ### Resolved
-
 * ### Unresolved
-
+   * During the final touches I noticed the favicon icon is not loading through the deployed site while the favicon icon is loaded through GitPod.
+   ![Favicon Error](assets/images/readme-images/favicon-error.PNG)
    ## Additional Testing
 
 ### Lighthouse
