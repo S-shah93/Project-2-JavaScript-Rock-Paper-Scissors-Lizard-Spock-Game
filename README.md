@@ -23,7 +23,6 @@ This game is an extention of the standard Rock, Paper Scissor game with a twist.
     * [**Media**](<#media>)
 *  [**Acknowledgements**](<#acknowledgements>)
 
-
 # User Experience (UX)
 
 # Wireframes
@@ -36,14 +35,11 @@ The wireframes for the game Rock, Paper, Scissor, Lizard, Spock were produced in
 
 ![Desktop Wireframe](assets/images/readme-images/desktop-wireframe-2.png)
 
-
-
 **Mobile Wireframes Starting Screen and Ending Screen**
 
 ![Mobile Wireframe](assets/images/readme-images/mobile-wireframe-1.PNG)
 
 ![Mobile Wireframe](assets/images/readme-images/mobile-wireframe-2.PNG)
-
 
 # Site Structure 
 
@@ -157,7 +153,6 @@ The method from cloning a project from GitHub is below:
 * [Adobe Illistrator](https://www.adobe.com/ie/products/illustrator.html) was used to create the wireframes.
 * To get a better understanding of how to start writing the functions for the game I found great advice from 2 specfic YouTubers [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=1031s) & [Web Dev Simplified](https://www.youtube.com/watch?v=7UMuJMiNjSk&t=366s).
 * In addition many blogs from [GeeksforGeeks](https://www.geeksforgeeks.org/), [W3Schools](https://www.w3schools.com/) and [Youtube](https://www.youtube.com/) videos were researched in regards to CSS styling & JavaScript functions.
-
 
 ### Media
 * The options images displayed came from [Font Awesome](https://fontawesome.com/) in the form of an SVG file.

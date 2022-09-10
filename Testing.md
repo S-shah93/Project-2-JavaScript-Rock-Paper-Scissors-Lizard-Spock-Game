@@ -34,7 +34,6 @@ During the developmet process minor errors were found and resolved in the HTML f
 ![Jshint validator error](assets/images/readme-images/jshint-error.PNG)
 * Minor bugs were found in the google chrome console which were resolved.
 
-
 ## Responsiveness Test
 
 * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
