@@ -24,44 +24,24 @@
     <!-- Game Area for all content -->
     <div class="game-area">
       <div class="controls-area">
-        <button class="rock btn btn--big btn--brown">Rock</button>
-        <button class="paper btn btn--big btn--grey">Paper</button>
-        <button class="scissor btn btn--big btn--red">Scissor</button>
-        <button class="lizard btn btn--big btn--green">Lizard</button>
-        <button class="spock btn btn--big btn--blue">Spock</button>
       </div>
+
       <!--Player & Computer choice display -->
       <div class="choices">
-        <span
-          ><img
-            src="assets/images/default.png"
-            alt="defaultImg"
-            id="your-choice"
-        /></span>
-        <span
-          ><img
-            src="assets/images/default.png"
-            alt="defaultImg"
-            id="opponent-choice"
-        /></span>
       </div>
 
       <!-- Moves title -->
-      <div class="move">Select Your Weapon!</div>
+      <div class="move"></div>
 
       <!--Number of moves left before the game ends -->
-      <div class="movesleft">Moves Left: 5</div>
+      <div class="movesleft"></div>
 
       <!-- Score area for players & computers points -->
       <div class="score-area">
         <div class="playerScore">
-          <h2>Player</h2>
-          <p class="player-count count">0</p>
         </div>
 
         <div class="computerScore">
-          <h2>Computer</h2>
-          <p class="computer-count count">0</p>
         </div>
       </div>
 
@@ -69,21 +49,12 @@
       <div class="result"></div>
 
       <!-- Restart game button-->
-      <div id="restart"><button class="reload">Restart</button></div>
+      <div id="restart"><button class="reload"><a href = "bo5.html">BEST OF 5</a></button></div>
 
       <!-- Explanation of Rules -->
       <div class="rules-area">
-        <h2>A game of 5 rounds where the following rules apply:</h2>
+        <h2></h2>
         <div class="rules">
-          <div>Rock beats Scissor & Lizard</div>
-          <div>Paper beats Rock & Spock</div>
-          <div>Scissor beats Paper & Lizard</div>
-          <div>Lizard beats Paper & Spock</div>
-          <div>Spock beats Rock & Scissor</div>
-          <p>
-            If you have more points YOU WIN! If the Computer has more points YOU
-            LOSE and if the points are equel ITS A TIE!
-          </p>
         </div>
       </div>
     </div>
