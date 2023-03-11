@@ -29,7 +29,7 @@ const game = () => {
       option.addEventListener("click", function () {
         const movesLeft = document.querySelector(".movesleft");
         moves++;
-        movesLeft.innerText = `Moves Left: ${10 - moves}`;
+        movesLeft.innerText = `Moves Left: ${5 - moves}`;
 
         const choiceNumber = Math.floor(Math.random() * computerOptions.length);
         const computerChoice = computerOptions[choiceNumber];
@@ -37,8 +37,8 @@ const game = () => {
         /* Function to check who wins */
         winner(this.innerText, computerChoice);
 
-        /* Calling the gameOver function after 10 moves */
-        if (moves == 10) {
+        /* Calling the gameOver function after 5 moves */
+        if (moves == 5) {
           gameOver(playerOptions, movesLeft);
         }
       });
