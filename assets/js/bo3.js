@@ -1,6 +1,10 @@
 /* Entire Game logic inside this Function */
 /* jshint esversion: 6 */
 
+let mySound = new Audio('beyond.mp3')
+mySound.play()  
+mySound.volume = 0.05;
+
 const game = () => {
     let playerScore = 0;
   

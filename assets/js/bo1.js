@@ -1,6 +1,11 @@
 /* Entire Game logic inside this Function */
 /* jshint esversion: 6 */
 
+/* Plays background music */
+let mySound = new Audio('beyond.mp3')
+mySound.play()  
+mySound.volume = 0.1;
+
 const game = () => {
     let playerScore = 0;
   
@@ -149,7 +154,7 @@ const game = () => {
   
       chooseMove.innerText = "Game Over!!";
       movesLeft.style.display = "none";
-  
+  /*Added "background.style.background to change bg based on result" */
       if (playerScore > computerScore) {
         result.style.fontSize = "2rem";
         result.innerText = "You Won The Game";
