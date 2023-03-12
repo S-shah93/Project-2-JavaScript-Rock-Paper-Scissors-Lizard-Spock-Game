@@ -142,6 +142,7 @@ const game = () => {
       const chooseMove = document.querySelector(".move");
       const result = document.querySelector(".result");
       const reloadBtn = document.querySelector(".reload");
+      const background = document.querySelector(".game-area");
       playerOptions.forEach((option) => {
         option.style.display = "none";
       });
@@ -153,14 +154,17 @@ const game = () => {
         result.style.fontSize = "2rem";
         result.innerText = "You Won The Game";
         result.style.color = "#22B900";
+        background.style.background = "lightgreen";
       } else if (playerScore < computerScore) {
         result.style.fontSize = "2rem";
         result.innerText = "You Lost The Game";
         result.style.color = "#8B1A01";
+        background.style.background = "red";
       } else {
         result.style.fontSize = "2rem";
         result.innerText = "Tie";
         result.style.color = "black";
+        background.style.background = "grey";
       }
   
       reloadBtn.innerText = "Restart";
