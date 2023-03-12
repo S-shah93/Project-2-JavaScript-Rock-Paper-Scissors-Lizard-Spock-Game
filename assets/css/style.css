@@ -216,10 +216,16 @@ body {
 .rules {
     position: relative;
     width: 70%;
-    margin-left: 15%;
-    text-align: center;
+    margin-left: 35%;
+    text-align: left;
     font-size: 1.2rem;
 }
+
+#myDIV {
+
+    background-color: lightblue;
+
+  }
 
 /* ------------------------------------------- Media Query 1200px */
 @media screen and (max-width: 1200px) {

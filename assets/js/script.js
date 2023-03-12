@@ -1,11 +1,22 @@
 /* Entire Game logic inside this Function */
 /* jshint esversion: 6 */
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 const game = () => {
   let playerScore = 0;
 
   let computerScore = 0;
 
   let moves = 0;
+
 
   /* Function to start playing game   */
 
@@ -168,6 +179,7 @@ const game = () => {
       window.location.reload();
     });
   };
+
 /* Function to replay game */
   const replay = () => {
     const reloadBtn = document.querySelector(".reload");
